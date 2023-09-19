@@ -42,4 +42,4 @@ Welcome to the Calculator project! This simple web calculator allows you to perf
 
 ## license
 
-    This project is not licensed and is for educational or personal use only. All rights are reserved by the project author.
+This project is not licensed and is for educational or personal use only. All rights are reserved by the project author.
