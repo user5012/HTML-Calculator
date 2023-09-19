@@ -29,7 +29,7 @@ Welcome to the Calculator project! This simple web calculator allows you to perf
 
    ```bash
    git clone https://github.com/your-username/calculator.git
-2. Open index.html in your web browser to use the calculator.
+2. Open the project folder.
     ```bash
     cd calculator
 3. Open index.html in your web browser to use the calculator.
