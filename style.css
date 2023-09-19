@@ -1,0 +1,61 @@
+h1 {
+    text-align: center;
+    padding: 10 10 ;
+    border: 4px solid #336699;
+    color: #336699;
+}
+
+button {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0px;
+    text-align: center;
+    width: 70px;
+    height: 30px;
+    margin: 1px;
+    border: 1px solid #336699;
+    border-radius: 3px;
+    transition: 2ms;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+label {
+    display: flex;
+    color: #336699;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    border: 2px solid #336699;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.numbers {
+    text-align: center;
+}
+
+.other-values-except-equalsclear{
+    text-align: center;
+}
+
+.equalsclear{
+    text-align: center;
+}
+
+.border {
+    border: 4px solid #336699;
+    background-color: #336699;
+    padding: 10px ;
+}
+
+@media (max-width: 420px){
+    .border{
+        padding: 10px 0px;
+    }
+}
