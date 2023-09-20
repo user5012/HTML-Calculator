@@ -8,7 +8,6 @@ Welcome to the Calculator project! This simple web calculator allows you to perf
 - [Demo](#demo)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Features
@@ -21,7 +20,7 @@ Welcome to the Calculator project! This simple web calculator allows you to perf
 
 ## Getting Started
 
-   ### To visit the calculator online visit my website: [here](#)
+   ### To visit the calculator online visit my website: [here](https://user5012.github.io/HTML-Calculator/)
 
    ### To run this calculator on your local machine, follow these steps:
 
