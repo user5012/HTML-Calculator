@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,35 +8,34 @@
     <link rel="icon" type="image/png" href="images/2344132.png">
     <title>Calculator</title>
 </head>
+
 <body>
-    <h1>Welcome to Calculator</h1>
-    <div class="border">
-    <div class="numbers">
-        <button onclick="handleNumber(0)">0</button>
-        <button onclick="handleNumber(1)">1</button>
-        <button onclick="handleNumber(2)">2</button>
-        <button onclick="handleNumber(3)">3</button>
-        <button onclick="handleNumber(4)">4</button>
-        <button onclick="handleNumber(5)">5</button>
-        <button onclick="handleNumber(6)">6</button>
-        <button onclick="handleNumber(7)">7</button>
-        <button onclick="handleNumber(8)">8</button>
-        <button onclick="handleNumber(9)">9</button>
+    <div class="calculator">
+        <input id="display" readonly>
+        <div class="keys">
+            <button class="operator-btn" onclick="ApendToDisplay('+')">+</button>
+            <button onclick="ApendToDisplay('0')">0</button>
+            <button onclick="ApendToDisplay('1')">1</button>
+            <button onclick="ApendToDisplay('2')">2</button>
+            <button class="operator-btn" onclick="ApendToDisplay('-')">-</button>
+            <button onclick="ApendToDisplay('3')">3</button>
+            <button onclick="ApendToDisplay('4')">4</button>
+            <button onclick="ApendToDisplay('5')">5</button>
+            <button class="operator-btn" onclick="ApendToDisplay('*')">*</button>
+            <button onclick="ApendToDisplay('6')">6</button>
+            <button onclick="ApendToDisplay('7')">7</button>
+            <button onclick="ApendToDisplay('8')">8</button>
+            <button class="operator-btn" onclick="ApendToDisplay('/')">/</button>
+            <button onclick="ApendToDisplay('9')">9</button>
+            <button onclick="ApendToDisplay('.')">.</button>
+            <button class="operator-btn" onclick="calculateResult()">=</button>
+            <button class="operator-btn" onclick="clearValues()">C</button>
+
+        </div>
     </div>
-    <div class="other-values-except-equalsclear">
-    <button onclick="setOperation('+')">+</button>
-    <button onclick="setOperation('-')">-</button>
-    <button onclick="setOperation('*')">*</button>
-    <button onclick="setOperation('/')">/</button>
-    </div>
-    <div class="equalsclear">
-        <button title="clear" onclick="clearValues()">C</button>
-        <button title="equals" onclick="calculateResult()">=</button> <br>
-    </div>
-</div>
-    <br><br><br><br><br><br><br>
-    <label id="output">0</label>
+
 
     <script src="Script/script.js"></script>
 </body>
+
 </html>
